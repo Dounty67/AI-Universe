@@ -1,18 +1,15 @@
 {
-  "versao": "1.1.0",
-  "titulo": "AI Universe 1.1.0",
+  "versao": "1.2.0",
+  "titulo": "AI Universe 1.2.0",
   "data": "24/11/2026",
   "novidades": [
-    "Novo nome, ícone e animação de abertura",
-    "Central de ajuda e tour para quem usa pela primeira vez",
-    "Entrar no GitHub e continuar projetos privados ou públicos",
-    "Interface mais fluida e bonita",
-    "Contas por IA com troca automática",
-    "Sem janelas de terminal piscando",
-    "Inglês completo",
-    "Programa protegido contra engenharia reversa"
+    "Tela de Novidades: depois de atualizar você vê o que mudou",
+    "Instalador bonito, com instalação guiada em poucos cliques",
+    "Menos memória: o chat que você não está usando é fechado depois de 5 minutos",
+    "Abertura sem tela escura vazia antes da animação",
+    "Nome e pastas antigas trocados para AI Universe (seus dados são migrados sozinhos)"
   ],
-  "download": "https://github.com/Dounty67/Aiuniverse/releases/download/v1.1.0/AI-Universe-1.1.0.exe",
-  "sha256": "b573aa31cbbfefbf9ad6b88bfa980dfcaa1921e002a9fe98bb0844f3dc8efae7",
-  "tamanho": 22031872
+  "download": "https://github.com/Dounty67/Aiuniverse/releases/download/v1.2.0/AI-Universe-1.2.0.exe",
+  "sha256": "4777e110919f09efa9d56eba3821d8ab57be44d34d024b3dd85f5f1b913065b8",
+  "tamanho": 21699072
 }
