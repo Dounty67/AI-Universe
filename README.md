@@ -87,7 +87,7 @@ Chat and work with **Claude**, **ChatGPT / Codex**, **OpenCode** and more in a s
 ### How it works
 
 1. 🔐 **You sign in to GitHub** (the same sign-in the app already uses). The app never sees your password.
-2. 📦 **One private repository per project.** Turn a project on and the app creates a **private** repository named `aiu-<project> in **your own** GitHub account, plus `aiu-config for your settings and chats that don't belong to a project.
+2. 📦 **One private repository per project.** Turn a project on and the app creates a **private** repository named `aiu-<project>` in **your own** GitHub account, plus `aiu-config` for your settings and chats that don't belong to a project.
 3. 🔄 **It syncs by itself** in the background, or on demand with **Sync now**. Every sync is a normal Git commit, so you also get a **version history** for free.
 4. 💻 **On another PC:** install the app, sign in, turn on the backup and use **Find backups** to link a folder of that PC to each backup. Your chats and tasks come back.
 
