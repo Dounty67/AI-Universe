@@ -102,10 +102,18 @@ Chat and work with **Claude**, **ChatGPT / Codex**, **OpenCode** and more in a s
 
 ## 🔒 Privacy & security
 
-- 🏠 The app only talks to `127.0.0.1` (your own computer).
+- 🏠 **Your chats, projects and settings stay on your computer**, in `%LOCALAPPDATA%\AI-Universe-Dados`. Nothing is uploaded to any server of ours (we don't run any), and there is no cloud sync.
+- 🌐 **The app does connect to the internet, only for what you use:**
+  - the AIs you sign in to (through each AI's own tool or website);
+  - checking for updates (it reads a small file from this GitHub repository and downloads the new version from its Releases);
+  - GitHub, only if you sign in (through the official GitHub CLI);
+  - Microsoft's WebView2 download, only on Windows 10 when it is missing.
+- 📊 **No analytics or telemetry:** we found no code that sends usage data anywhere.
 - 🔐 It **never reads** your keys, passwords or cookies: sign-ins happen in each AI's own tool or website.
 - 🎚️ You choose how far an AI can go: read only, edit files, run commands, or full access.
 - 🧾 Updates are verified with SHA-256 before being installed.
+
+> ⚠️ Your messages go to the AI you choose, under that AI's own privacy policy. Don't paste secrets (passwords, API keys) into a chat.
 
 ---
 
@@ -114,7 +122,13 @@ Chat and work with **Claude**, **ChatGPT / Codex**, **OpenCode** and more in a s
 <details>
 <summary><b>Do I need API keys?</b></summary>
 
-No. AI Universe uses the subscriptions you already have (Claude, ChatGPT...). The app itself is free and charges nothing.
+No. AI Universe uses the subscriptions you already have (Claude, ChatGPT...). The app itself is free and charges nothing. (API keys are optional and only for a few extra providers.)
+</details>
+
+<details>
+<summary><b>Can I use it on two computers?</b></summary>
+
+Yes, but each computer keeps its own data and its own sign-ins. There is no cloud sync yet.
 </details>
 
 <details>
