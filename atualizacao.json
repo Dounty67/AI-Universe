@@ -1,15 +1,15 @@
 {
-  "versao": "1.2.0",
-  "titulo": "AI Universe 1.2.0",
+  "versao": "1.2.1",
+  "titulo": "AI Universe 1.2.1",
   "data": "24/11/2026",
   "novidades": [
+    "O instalador e o app instalam o WebView2 sozinhos no Windows 10, se faltar",
     "Tela de Novidades: depois de atualizar você vê o que mudou",
     "Instalador bonito, com instalação guiada em poucos cliques",
     "Menos memória: o chat que você não está usando é fechado depois de 5 minutos",
-    "Abertura sem tela escura vazia antes da animação",
     "Nome e pastas antigas trocados para AI Universe (seus dados são migrados sozinhos)"
   ],
-  "download": "https://github.com/Dounty67/Aiuniverse/releases/download/v1.2.0/AI-Universe-1.2.0.exe",
-  "sha256": "4777e110919f09efa9d56eba3821d8ab57be44d34d024b3dd85f5f1b913065b8",
-  "tamanho": 21699072
+  "download": "https://github.com/Dounty67/AI-Universe/releases/download/v1.2.1/AI-Universe-1.2.1.exe",
+  "sha256": "7fc5f0a4e80ab757fa4e3df0ba766703472caec2f54027d47a70ebb68e0dd1ac",
+  "tamanho": 21695488
 }
