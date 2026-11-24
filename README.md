@@ -55,6 +55,25 @@ Chat and work with **Claude**, **ChatGPT / Codex**, **OpenCode** and more in a s
 
 ---
 
+## 🖼️ Gallery
+
+<table>
+<tr>
+<td align="center"><b>🗺️ 3D map of your project</b><br><img src="docs/map-3d.png" alt="3D map"></td>
+<td align="center"><b>🌞 Light theme</b><br><img src="docs/light-theme.png" alt="Light theme"></td>
+</tr>
+<tr>
+<td align="center"><b>🤖 Models & AI council</b><br><img src="docs/settings-models.png" alt="Models and AI council settings"></td>
+<td align="center"><b>🐙 Continue a GitHub project</b><br><img src="docs/github-repos.png" alt="GitHub repository picker"></td>
+</tr>
+<tr>
+<td align="center"><b>🔄 Automatic update</b><br><img src="docs/update-popup.png" alt="Update pop-up" width="60%"></td>
+<td align="center"><b>🆕 What's new</b><br><img src="docs/whats-new.png" alt="What's new screen" width="60%"></td>
+</tr>
+</table>
+
+---
+
 ## 📥 Install
 
 1. ⬇️ Download **`AI-Universe-Setup-<version>.exe`** from the [**Releases**](../../releases/latest) page.
