@@ -39,6 +39,8 @@ Chat and work with **Claude**, **ChatGPT / Codex**, **OpenCode** and more in a s
 | 🔑 **Your own accounts** | Claude, ChatGPT/Codex, OpenCode and others. Add several accounts per AI and switch automatically when a quota runs out. |
 | 🧑‍⚖️ **AI council** | Ask several AIs at once and get one combined answer. |
 | 🐙 **GitHub built in** | Sign in and continue any of your repositories, private or public, as a project. |
+| ☁️ **Cloud backup (optional)** | Back up your chats, tasks and summaries to **private repositories of your own** on GitHub, one per project, and pick up where you left off on another PC. [How it works ↓](#%EF%B8%8F-cloud-backup--sync) |
+| 🌐 **Browser for the AI** | OpenCode can open and use websites in **Firefox, Chrome, Edge or Brave**, in a window docked next to the app. |
 | 📂 **Projects & live activity** | Tasks, a code editor, a 3D map of your project and a step-by-step timeline of what the AI reads, writes and runs. |
 | 🧩 **Skills, MCPs & `.md` files** | Teach the AI your way of working and give it new powers. Everything is optional. |
 | 🛟 **Help center & first-run tour** | Simple explanations of everything, with a red **?** always one click away. |
@@ -74,6 +76,55 @@ Chat and work with **Claude**, **ChatGPT / Codex**, **OpenCode** and more in a s
 
 ---
 
+## ☁️ Cloud backup & sync
+
+**Optional and off by default.** Turn it on in **Settings › General › Backup and sync** (you need to be signed in to GitHub). Then your work follows you: reinstall, change PCs, or keep two computers in step.
+
+<div align="center">
+<img src="docs/cloud-backup.png" alt="Cloud backup settings" width="80%">
+</div>
+
+### How it works
+
+1. 🔐 **You sign in to GitHub** (the same sign-in the app already uses). The app never sees your password.
+2. 📦 **One private repository per project.** Turn a project on and the app creates a **private** repository named iu-<project> in **your own** GitHub account, plus iu-config for your settings and chats that don't belong to a project.
+3. 🔄 **It syncs by itself** in the background, or on demand with **Sync now**. Every sync is a normal Git commit, so you also get a **version history** for free.
+4. 💻 **On another PC:** install the app, sign in, turn on the backup and use **Find backups** to link a folder of that PC to each backup. Your chats and tasks come back.
+
+### What goes to the cloud, and what stays on your PC
+
+| ☁️ Goes to your private repositories | 🏠 Always stays on your PC |
+|---|---|
+| Work chats (you can switch this off) | Your project files (they stay where they are) |
+| Tasks and the project summary | Images, audio, 3D models and builds |
+| A few app settings and AI preferences | Sign-ins, tokens, passwords and e-mails |
+| | Usage numbers, permission level and local paths |
+
+Heavy files never go up, so a big game doesn't turn into a huge repository. To back up your project files too, use Git on the project itself, as you normally would.
+
+### Two PCs, no surprises
+
+If the **same thing changed on both computers**, the app **does not overwrite anything**. It shows both versions and you choose to keep this PC's, the cloud's, or both.
+
+### Archive or delete from the app
+
+Open a project's **Repository…** to **archive** its cloud repository (read-only, reversible on GitHub) or **delete it for good**.
+
+<div align="center">
+<img src="docs/cloud-delete.png" alt="Delete confirmation" width="60%">
+</div>
+
+- 🛡️ Deleting is **permanent** and needs an **extra permission** from GitHub, which you approve in your browser, plus **typing the repository name** to confirm.
+- 🎯 The app only touches repositories **it created itself**. It never deletes your other repositories, and never your project files.
+
+### Good to know
+
+- 💸 **Free:** personal GitHub accounts can have unlimited private repositories.
+- 🔒 **Private, not encrypted:** your data sits in your private repositories, protected by your GitHub account. The app checks that each repository is really private before every sync and refuses to use a public one. It also tries to warn about things that look like secrets, but **don't paste passwords or API keys into chats**.
+- 🧪 This feature is new. Tell us if something looks odd.
+
+---
+
 ## 📥 Install
 
 1. ⬇️ Download **`AI-Universe-Setup-<version>.exe`** from the [**Releases**](../../releases/latest) page.
@@ -102,11 +153,11 @@ Chat and work with **Claude**, **ChatGPT / Codex**, **OpenCode** and more in a s
 
 ## 🔒 Privacy & security
 
-- 🏠 **Your chats, projects and settings stay on your computer**, in `%LOCALAPPDATA%\AI-Universe-Dados`. Nothing is uploaded to any server of ours (we don't run any), and there is no cloud sync.
+- 🏠 **Your chats, projects and settings stay on your computer**, in `%LOCALAPPDATA%\AI-Universe-Dados`. Nothing is uploaded to any server of ours (we don't run any). The only way your data leaves your PC is the optional [cloud backup](#%EF%B8%8F-cloud-backup--sync), and then it goes **only to private repositories in your own GitHub account**.
 - 🌐 **The app does connect to the internet, only for what you use:**
   - the AIs you sign in to (through each AI's own tool or website);
   - checking for updates (it reads a small file from this GitHub repository and downloads the new version from its Releases);
-  - GitHub, only if you sign in (through the official GitHub CLI);
+  - GitHub, only if you sign in (through the official GitHub CLI), and for the cloud backup if you turn it on;
   - Microsoft's WebView2 download, only on Windows 10 when it is missing.
 - 📊 **No analytics or telemetry:** we found no code that sends usage data anywhere.
 - 🔐 It **never reads** your keys, passwords or cookies: sign-ins happen in each AI's own tool or website.
@@ -128,13 +179,25 @@ No. AI Universe uses the subscriptions you already have (Claude, ChatGPT...). Th
 <details>
 <summary><b>Can I use it on two computers?</b></summary>
 
-Yes, but each computer keeps its own data and its own sign-ins. There is no cloud sync yet.
+Yes. Turn on the [cloud backup](#%EF%B8%8F-cloud-backup--sync) on both: your chats, tasks and summaries follow you through private repositories in your own GitHub account. Each computer still has its own sign-ins, and your project files stay where they are (bring them with Git or however you prefer).
 </details>
 
 <details>
 <summary><b>Where is my data?</b></summary>
 
-Only on your computer, in `%LOCALAPPDATA%\AI-Universe-Dados`. Nothing is sent to any server of ours.
+On your computer, in `%LOCALAPPDATA%\AI-Universe-Dados`. Nothing is sent to any server of ours. If you turn on the optional cloud backup, a copy of your chats, tasks and summaries also lives in private repositories of your own GitHub account.
+</details>
+
+<details>
+<summary><b>Is the cloud backup free? Is there a limit?</b></summary>
+
+It's free: personal GitHub accounts can have unlimited private repositories. The app uses one per project plus one for settings.
+</details>
+
+<details>
+<summary><b>Can I delete the cloud backup?</b></summary>
+
+Yes, from the app: **Repository… › Delete for good**. It asks for an extra GitHub permission and for you to type the repository name. Only repositories created by the app can be deleted, and your project files are never touched.
 </details>
 
 <details>
