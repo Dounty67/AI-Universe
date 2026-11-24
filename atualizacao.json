@@ -1,0 +1,18 @@
+{
+  "versao": "1.1.0",
+  "titulo": "AI Universe 1.1.0",
+  "data": "24/11/2026",
+  "novidades": [
+    "Novo nome, ícone e animação de abertura",
+    "Central de ajuda e tour para quem usa pela primeira vez",
+    "Entrar no GitHub e continuar projetos privados ou públicos",
+    "Interface mais fluida e bonita",
+    "Contas por IA com troca automática",
+    "Sem janelas de terminal piscando",
+    "Inglês completo",
+    "Programa protegido contra engenharia reversa"
+  ],
+  "download": "https://github.com/Dounty67/Aiuniverse/releases/download/v1.1.0/AI-Universe-1.1.0.exe",
+  "sha256": "8d96f7b5cdd8f6b681c75e5925c3f18fde81d72b5dd5f65c668b01a81abd1d2f",
+  "tamanho": 22031360
+}
