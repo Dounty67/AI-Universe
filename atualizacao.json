@@ -1,14 +1,14 @@
 {
-  "versao": "1.3.4",
-  "titulo": "Modelos novos, bolhas e Responder",
+  "versao": "1.3.5",
+  "titulo": "Janela mais fluida e Melhorar prompt configurável",
   "data": "26/11/2026",
   "novidades": [
-    "GPT novos (como o GPT-6.2) aparecem no OpenCode e no Codex sozinhos",
-    "Mensagens da IA em balões, com a opção Responder para citar uma mensagem específica",
-    "Removido o efeito de fundo que seguia o mouse",
-    "Animações contínuas mais fluidas, ainda leves para a placa de vídeo"
+    "Janela mais fluida: arrastar, redimensionar e maximizar agora são tratados direto pelo Windows",
+    "Melhorar meu prompt: escolha a IA, o modelo e o nível em Configurações > Modelos (Claude, GPT, OpenCode, Antigravity, provedores e agentes)",
+    "Aviso visual quando as ferramentas estão ligadas e quando os prompts são melhorados ao enviar",
+    "Removido o botão Continuar com Claude Code/Codex que aparecia toda hora"
   ],
-  "download": "https://github.com/Dounty67/AI-Universe/releases/download/v1.3.4/AI-Universe-1.3.4.exe",
-  "sha256": "e18ad988b54ac29a812c6cefa7791d7d71ce5296c5acb073cdf7f7bf5cf719a0",
-  "tamanho": 21856256
+  "download": "https://github.com/Dounty67/AI-Universe/releases/download/v1.3.5/AI-Universe-1.3.5.exe",
+  "sha256": "794250450db4b494aac0afd3b2ac477679ff7e1e252bf427872d2569b5441860",
+  "tamanho": 21908992
 }
