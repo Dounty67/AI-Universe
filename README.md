@@ -43,7 +43,10 @@ Chat and work with **Claude**, **ChatGPT / Codex**, **OpenCode** and more in a s
 | 🌐 **Browser for the AI** | OpenCode can open and use websites in **Firefox, Chrome, Edge or Brave**, in a window docked next to AI Universe. |
 | 📂 **Projects & live activity** | Tasks, a code editor, a 3D map of your project and a step-by-step timeline of what the AI reads, writes and runs. |
 | 🧩 **Skills, MCPs & `.md` files** | Teach the AI your way of working and give it new powers. Everything is optional. |
-| 🛟 **Help center & first-run tour** | Simple explanations of everything, with a red **?** always one click away. |
+| 🔌 **Extensions showcase** | Browse plugins and MCPs in a storefront with pictures and filters, and install them in any project for OpenCode, Claude Code, Codex or Antigravity. |
+| 🎨 **Image generation** | Ask Codex (GPT) or Antigravity (Gemini) to create an image from the chat, with your own sign-in and no API key. Pick which AI does it in **Settings › Models and usage**. |
+| 🔎 **Searchable settings** | Settings are grouped by topic and have a search box. |
+| 🛟 **Help center & first-run setup** | A single welcome pop-up guides your first sign-ins, and a red **?** is always one click away for simple explanations. |
 | 🌗 **Light & dark themes** | Smooth animations, plus a light mode for low memory use. |
 | 🔔 **Tray icon** | Closing the window keeps AI Universe in the tray. Use *Close for good* to quit. |
 | 🔄 **Automatic updates** | A friendly pop-up, a safe download (checked with SHA-256) and a *What's new* screen. |
@@ -78,7 +81,7 @@ Chat and work with **Claude**, **ChatGPT / Codex**, **OpenCode** and more in a s
 
 ## ☁️ Cloud backup & sync
 
-**Optional and off by default.** Turn it on in **Settings › General › Backup and sync** (you need to be signed in to GitHub). Then your work follows you: reinstall, change PCs, or keep two computers in step.
+**Optional and off by default.** Turn it on in **Settings › System › Backup and sync** (you need to be signed in to GitHub). Then your work follows you: reinstall, change PCs, or keep two computers in step.
 
 <div align="center">
 <img src="docs/cloud-backup.png" alt="Cloud backup settings" width="80%">
