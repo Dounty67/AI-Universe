@@ -1,17 +1,14 @@
 {
-  "versao": "1.3.0",
-  "titulo": "Backup na nuvem pelo GitHub",
-  "data": "24/11/2026",
+  "versao": "1.3.4",
+  "titulo": "Modelos novos, bolhas e Responder",
+  "data": "26/11/2026",
   "novidades": [
-    "Backup na nuvem pelo GitHub (opcional): seus chats, tarefas e resumo vão para repositórios privados seus, um por projeto",
-    "Continue em outro PC e, se algo mudou nos dois lados, você escolhe o que manter",
-    "Arquive ou apague os repositórios da nuvem pelo próprio app, com confirmação",
-    "O OpenCode agora usa o Chrome, o Edge, o Brave ou o Firefox, o que você tiver",
-    "IAs que você cadastra ganham um ícone com a inicial e uma cor própria",
-    "Tema claro: animação de abertura e botões de ajuda com as cores certas",
-    "A lista de IAs e logins aparece na hora, sem esperar"
+    "GPT novos (como o GPT-6.2) aparecem no OpenCode e no Codex sozinhos",
+    "Mensagens da IA em balões, com a opção Responder para citar uma mensagem específica",
+    "Removido o efeito de fundo que seguia o mouse",
+    "Animações contínuas mais fluidas, ainda leves para a placa de vídeo"
   ],
-  "download": "https://github.com/Dounty67/AI-Universe/releases/download/v1.3.0/AI-Universe-1.3.0.exe",
-  "sha256": "e34ced46b018344bf40030fe2680fdead24f9c36f5ccd98a956d4b8b2ade3ebc",
-  "tamanho": 21830656
+  "download": "https://github.com/Dounty67/AI-Universe/releases/download/v1.3.4/AI-Universe-1.3.4.exe",
+  "sha256": "e18ad988b54ac29a812c6cefa7791d7d71ce5296c5acb073cdf7f7bf5cf719a0",
+  "tamanho": 21856256
 }
