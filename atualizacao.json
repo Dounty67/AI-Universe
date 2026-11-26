@@ -1,12 +1,17 @@
 {
-  "versao": "1.3.6",
-  "titulo": "Correção do botão maximizar",
+  "versao": "1.3.7",
+  "titulo": "Nova tela de Extensões, IA de apoio e correções",
   "data": "26/11/2026",
   "novidades": [
-    "O botão maximizar da janela voltou a funcionar (maximiza e restaura)",
-    "Janela mais fluida: arrastar, redimensionar e maximizar tratados direto pelo Windows"
+    "Extensões em formato de vitrine: cartões com imagem, filtros por tipo e por IA e página de detalhes com explicação",
+    "Busca de MCPs no registro oficial e de plugins no GitHub, com instalação guiada para OpenCode, Claude Code, Codex e Antigravity",
+    "IA de apoio configurável em Configurações > Modelos: melhorar prompt, preparar .md e explicar plugins",
+    "Plugins podem ser instalados em qualquer projeto, não só Godot e Unreal",
+    "Corrigida a tela de cmd que piscava sozinha (atualizador do Antigravity)",
+    "Botão Sugerir com IA no próximo passo do projeto e aviso visual de ferramentas ligadas",
+    "Janela mais fluida, botão maximizar corrigido e traduções para o inglês completas"
   ],
-  "download": "https://github.com/Dounty67/AI-Universe/releases/download/v1.3.6/AI-Universe-1.3.6.exe",
-  "sha256": "2125412da882f8f2cbe0a8deffa23a59fe13cde98c88b82694f337e04d9aaddd",
-  "tamanho": 21904896
+  "download": "https://github.com/Dounty67/AI-Universe/releases/download/v1.3.7/AI-Universe-1.3.7.exe",
+  "sha256": "18b48da0173bb0d6dd333540c462586671d87c4d665d52c80acb37d17442c4d5",
+  "tamanho": 21982208
 }
