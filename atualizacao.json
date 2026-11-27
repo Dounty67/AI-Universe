@@ -1,15 +1,14 @@
 {
   "versao": "1.3.8",
-  "titulo": "Boas-vindas renovadas, geração de imagem e Configurações reorganizadas",
+  "titulo": "Gerar imagem, busca nas Configurações e correções",
   "data": "26/11/2026",
   "novidades": [
-    "Boas-vindas em um só pop-up, no novo visual, e assistente de primeira configuração redesenhado",
-    "Gerar imagem com o Codex (GPT) ou o Antigravity (Gemini), sem chave de API: botão no chat e escolha em Configurações > Modelos e uso",
-    "Configurações reorganizadas, com busca: Aparência e desempenho, Som e voz, Backup em Sistema e Antigravity em Minhas IAs",
-    "Textos corrigidos: OpenCode aceita qualquer modelo com suporte e o pedido pode ser escrito no seu idioma",
-    "Corrigido o layout dos programas extras no assistente de configuração"
+    "Novo botão Gerar imagem no chat: o Codex (GPT) ou o Antigravity (Gemini) cria a imagem com o seu login, sem chave de API. A IA é escolhida em Configurações > Modelos e uso",
+    "Nova caixa de busca nas Configurações para achar qualquer opção rápido",
+    "Corrigido: dois pop-ups de boas-vindas apareciam juntos na primeira abertura. Agora é um só",
+    "Corrigido: os programas extras do assistente de primeira configuração apareciam com ícone e texto sobrepostos"
   ],
   "download": "https://github.com/Dounty67/AI-Universe/releases/download/v1.3.8/AI-Universe-1.3.8.exe",
-  "sha256": "4cf917cdb91eb83bc804e00ee45d9243a8591606b5e1d26e5be3fa4193c65ccc",
-  "tamanho": 21998592
+  "sha256": "a232008e505fcf54cb2e534a3e9e852484bf904ddb2682a3e3d267d66ba4e042",
+  "tamanho": 21997568
 }
